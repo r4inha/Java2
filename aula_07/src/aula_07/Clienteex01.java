@@ -2,15 +2,12 @@ package aula_07;
 
 public class Clienteex01 {
 
-	//atributos
     private String nome;
     private int idade;
     private String sexo;
     private String cidade;
     private String telefone;
 
-
-    //metodo
     public Clienteex01(String nome, int idade, String sexo, String cidade, String telefone) {
         this.nome = nome;
         this.idade = idade;
@@ -19,7 +16,6 @@ public class Clienteex01 {
         this.telefone = telefone;
     }
     
-  //metodo GET e SET
     public String getNome() {
         return nome;
         
@@ -68,7 +64,6 @@ public class Clienteex01 {
     	this.telefone = telefone;
 }
 
-    //metodo visualizar
     public void visualizar() {
     	System.out.println("Nome: " + this.nome);
     	System.out.println("Idade: " + this.idade);
