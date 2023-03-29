@@ -4,7 +4,6 @@ import model.Conta;
 import repository.ContaRepository;
 
 public class ContaController implements ContaRepository {
-
 	public void cadastrar(Conta conta) {
 		// TODO Auto-generated method stub
 		
